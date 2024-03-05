@@ -1,12 +1,17 @@
 {
-    "name": "migrator",
-    "version": "1.0.0",
-    "description": "MySql Migrator Tool",
-    "scripts": {
-      "migrator": "./cli.sh my-command"
-    },
-    "devDependencies": {
-      "migrator": "file:./"
-    }
+  "name": "migrator",
+  "version": "0.0.1",
+  "description": "A CLI tool that helps you to manage sql database migrations.",
+  "main": "bin/migrator.js",
+  "author": "Sulav Parajuli",
+  "license": "ISC",
+  "keywords": [
+    "migrator",
+    "sql"
+  ],
+  "bin": {
+    "migrator": "./bin/migrator.js"
+  },
+  "dependencies": {
   }
-  
+}
